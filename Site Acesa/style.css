@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*mobile*/
+
+
+.body{
+    margin:0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px auto;
+    color: #fff;
+    font-family: "montserrat", sans-serif;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #151E2C;
+    padding: 1rem 1.5rem;
+    border-radius: 0.4rem;
+  }
+  nav .logo {
+    font-weight: 700;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  nav #toggle,
+  nav label {
+    display: none;
+  }
+  
+ .conteiner_header{
+    display: flex;
+    gap: 10px;
+ }
+ .conteiner_header img{
+    border-radius: 50px;
+ }
+
+ h1{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+  @media (max-width: 40.625em) {
+    nav .menu {
+      width: 100%;
+      height: 0px;
+      overflow: hidden;
+    }
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 2px 0px;
+    }
+    nav label {
+      display: inline-flex;
+      color: rgb(150, 132, 132);
+      cursor: pointer;
+    }
+    nav #toggle:checked ~ .menu {
+      height: 100%;
+    }
+    
+}
+
+main {
+    padding-top: 100px;
+    padding:4px 0px 0px;
+    margin: 50px 30px 30px;
+}
+
+/*seção sobre a acesa*/
+
+.sobreAcesa{
+    font-family: "Montserrat", sans-serif;
+    color: #151E2C;
+    font-weight: 500;
+}
+
+.destaque_titulo{
+    font-family: "Montserrat", sans-serif;
+    color:#8CFA70;
+    font-weight: 500;
+}
+
+.textoSobreAcesa{
+    font-family: "Montserrat", sans-serif;
+    color: #151E2C;
+    font-weight: 400;
+}
+
+.conteiner_imagem_sobreAcesa img{
+    max-width: 100%;
+    width: 700px;
+}
+
+.conteiner_imagem_sobreAcesa {
+    display: flex;
+    justify-content: center;
+}
+
+/*seção nossa missão*/
+
+.conteineir_icones_nossa_missao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.conteiner_card_nossa_missao {
+    margin: 10px;
+    text-align: center;
+    max-width: 200px;
+}
+
+.conteiner_card_nossa_missao img {
+    max-width: 100%;
+    height: auto;
+    width: 80px;
+}
+
+.conteiner_card_nossa_missao p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #151E2C;
+    font-family: 'montserrat', sans-serif;
+}
+
+/*seção nossos valores*/
+
+.conteiner_nossosValores img{
+    max-width: 100%;
+    width: 800px;
+}
+
+.conteiner_nossosValores div{
+    display: flex;
+    justify-content: center;
+}
+
+/*seção nossos professores*/
+
+.conteineir_icones_nossos_professores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+.conteiner_card_nossos_professores {
+    margin: 10px;
+    text-align: center;
+    max-width: 200px;
+}
+
+.conteiner_card_nossos_professores img {
+    max-width: 100%;
+    height: auto;
+    width: 80px;
+}
+
+.conteiner_card_nossos_professores p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #151E2C;
+    font-family: 'montserrat', sans-serif;
+    text-align: left;
+}
+
+.nome{
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+}
+
+.conteineir_icone{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.conteineir_icone div {
+    max-width: 100%;
+    width: 32px;
+}
+
+/*conheça nossos apoiadores*/
+
+.conteiner_saiba_sobre_nossos_apoiadores {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.conteiner_icones_nossos_apoiadores img {
+    height: 150px;
+    max-width: 100%;
+    background-color:#151E2C;
+}
+
+/*footer*/
+
+footer {
+    max-width: 100%;
+    background-color: #151E2C;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+}
+
